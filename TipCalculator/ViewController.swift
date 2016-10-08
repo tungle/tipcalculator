@@ -33,12 +33,21 @@ class ViewController: UIViewController {
 
         loadSettings(defaults: defaults)
         
+        updateTipControl(defaults:defaults)
+        
+        loadLastTipValue(defaults: defaults)
+
+    }
+    
+    func updateTipControl(defaults: UserDefaults){
         
         tipControl.setTitle(String(format: "%d%", tipPercentages[0]), forSegmentAt: 0)
         tipControl.setTitle(String(format: "%d%", tipPercentages[1]), forSegmentAt: 1)
         tipControl.setTitle(String(format: "%d%", tipPercentages[2]), forSegmentAt: 2)
-
+        let index = defaults.integer(forKey:"last_tip_control_index")
+        tipControl.selectedSegmentIndex = index
     }
+    
     
     func loadSettings(defaults: UserDefaults) {
         var thres1 = defaults.integer(forKey: "thres1")
@@ -59,8 +68,30 @@ class ViewController: UIViewController {
         tipPercentages[1] = thres2
         tipPercentages[2] = thres3
         
+        
+    }
+    func loadLastTipValue(defaults: UserDefaults) {
+        let lastBill = defaults.integer(forKey: "last_bill_value")
+        billField.text = "\(lastBill)"
+        
+        updateBillValue()
+        
+        
+        
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+
+        let bill = Double(billField.text!) ?? 0
+        let defaults = UserDefaults.standard
+        
+        defaults.set(bill , forKey: "last_bill_value")
+        defaults.set(tipControl.selectedSegmentIndex, forKey: "last_tip_control_index")
+        defaults.synchronize()
+        
+        
+    }
+
     
 
     override func didReceiveMemoryWarning() {
@@ -69,15 +100,17 @@ class ViewController: UIViewController {
     }
 
     @IBAction func onBillChanged(_ sender: AnyObject) {
+        updateBillValue()
         
-        
+    }
+    
+    func updateBillValue(){
         let bill = Double(billField.text!) ?? 0
         let tip = bill * Double(tipPercentages[tipControl.selectedSegmentIndex])/100
         
         let total = bill + tip
         tipLabel.text = String (format: "$%.2f", tip)
         totalLabel.text = String (format: "$%.2f", total)
-        
     }
 
     @IBAction func onTap(_ sender: AnyObject) {

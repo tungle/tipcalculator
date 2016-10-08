@@ -15,6 +15,7 @@
 		1E3A7A251DA807530093C3A1 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3A7A241DA807530093C3A1 /* TipCalculatorTests.swift */; };
 		1E3A7A301DA807530093C3A1 /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3A7A2F1DA807530093C3A1 /* TipCalculatorUITests.swift */; };
 		1E3A7A3E1DA96E6C0093C3A1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3A7A3D1DA96E6C0093C3A1 /* SettingsViewController.swift */; };
+		1E3A7A401DA98BC10093C3A1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1E3A7A3F1DA98BC10093C3A1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1E3A7A2F1DA807530093C3A1 /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		1E3A7A311DA807530093C3A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E3A7A3D1DA96E6C0093C3A1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1E3A7A3F1DA98BC10093C3A1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		1E3A7A031DA807530093C3A1 = {
 			isa = PBXGroup;
 			children = (
+				1E3A7A3F1DA98BC10093C3A1 /* README.md */,
 				1E3A7A0E1DA807530093C3A1 /* TipCalculator */,
 				1E3A7A231DA807530093C3A1 /* TipCalculatorTests */,
 				1E3A7A2E1DA807530093C3A1 /* TipCalculatorUITests */,
@@ -264,6 +267,7 @@
 			files = (
 				1E3A7A121DA807530093C3A1 /* ViewController.swift in Sources */,
 				1E3A7A101DA807530093C3A1 /* AppDelegate.swift in Sources */,
+				1E3A7A401DA98BC10093C3A1 /* README.md in Sources */,
 				1E3A7A3E1DA96E6C0093C3A1 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
