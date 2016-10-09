@@ -1,0 +1,12 @@
+PODS:
+  - NextResponderTextField (1.1.0)
+
+DEPENDENCIES:
+  - NextResponderTextField
+
+SPEC CHECKSUMS:
+  NextResponderTextField: 26ca1e8f8ac601fa180a2647456f3862acdcc673
+
+PODFILE CHECKSUM: e6a7b7d761ca3aefd4a27778016f82e84efd16da
+
+COCOAPODS: 1.0.1

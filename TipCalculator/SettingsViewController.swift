@@ -18,6 +18,8 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        thresField1.becomeFirstResponder()
+        
         // Do any additional setup after loading the view, typically from a nib.
         let defaults = UserDefaults.standard
         

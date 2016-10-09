@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>NextResponderTextField-NextResponderTextField.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>NextResponderTextField.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TipCalculator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TipCalculatorTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TipCalculatorUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0C8868A7C0ECA845C777BF3CC370C9FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>92F3B30AA688506540CE167ADDEBDD41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>94E903A1FE3451A10203498518715D8B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BCC0CC185068CC8450B25AEA05650A73</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C085A15A46C233571FF05DAB9B09B587</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

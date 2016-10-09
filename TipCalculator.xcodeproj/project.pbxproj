@@ -16,6 +16,9 @@
 		1E3A7A301DA807530093C3A1 /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3A7A2F1DA807530093C3A1 /* TipCalculatorUITests.swift */; };
 		1E3A7A3E1DA96E6C0093C3A1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3A7A3D1DA96E6C0093C3A1 /* SettingsViewController.swift */; };
 		1E3A7A401DA98BC10093C3A1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1E3A7A3F1DA98BC10093C3A1 /* README.md */; };
+		5725CAF6412D62EE5AEEF67E /* Pods_TipCalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCBEAEF4B6A2FC53D514098 /* Pods_TipCalculatorUITests.framework */; };
+		B8396ACEB660C2A87BFCA0C4 /* Pods_TipCalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F25CE5006A5D23216BFFE3A /* Pods_TipCalculatorTests.framework */; };
+		E42E4B599947FAE4DFF85A16 /* Pods_TipCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17541210B0B2B3F0F3955539 /* Pods_TipCalculator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17541210B0B2B3F0F3955539 /* Pods_TipCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3A7A0C1DA807530093C3A1 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3A7A0F1DA807530093C3A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E3A7A111DA807530093C3A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 		1E3A7A311DA807530093C3A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E3A7A3D1DA96E6C0093C3A1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		1E3A7A3F1DA98BC10093C3A1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2DE22DB18DB9BDA241881840 /* Pods-TipCalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipCalculatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TipCalculatorUITests/Pods-TipCalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		57FDED9C8D5CC7A31F8774C5 /* Pods-TipCalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipCalculatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TipCalculatorTests/Pods-TipCalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		649B3FC903C61FDB984E749E /* Pods-TipCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipCalculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-TipCalculator/Pods-TipCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		6F25CE5006A5D23216BFFE3A /* Pods_TipCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E24868B88E9A122D1290691 /* Pods-TipCalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipCalculatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TipCalculatorUITests/Pods-TipCalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCAF9BD719555EF8A78BAD35 /* Pods-TipCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipCalculatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TipCalculatorTests/Pods-TipCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		E0F3CF4CC9C1D72CD007A395 /* Pods-TipCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipCalculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TipCalculator/Pods-TipCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		FFCBEAEF4B6A2FC53D514098 /* Pods_TipCalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipCalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42E4B599947FAE4DFF85A16 /* Pods_TipCalculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8396ACEB660C2A87BFCA0C4 /* Pods_TipCalculatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5725CAF6412D62EE5AEEF67E /* Pods_TipCalculatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +101,8 @@
 				1E3A7A231DA807530093C3A1 /* TipCalculatorTests */,
 				1E3A7A2E1DA807530093C3A1 /* TipCalculatorUITests */,
 				1E3A7A0D1DA807530093C3A1 /* Products */,
+				9382ACB218798E781F4B37BC /* Pods */,
+				8C8E2E9B14F184CBF485988A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +148,29 @@
 			path = TipCalculatorUITests;
 			sourceTree = "<group>";
 		};
+		8C8E2E9B14F184CBF485988A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17541210B0B2B3F0F3955539 /* Pods_TipCalculator.framework */,
+				6F25CE5006A5D23216BFFE3A /* Pods_TipCalculatorTests.framework */,
+				FFCBEAEF4B6A2FC53D514098 /* Pods_TipCalculatorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9382ACB218798E781F4B37BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0F3CF4CC9C1D72CD007A395 /* Pods-TipCalculator.debug.xcconfig */,
+				649B3FC903C61FDB984E749E /* Pods-TipCalculator.release.xcconfig */,
+				57FDED9C8D5CC7A31F8774C5 /* Pods-TipCalculatorTests.debug.xcconfig */,
+				CCAF9BD719555EF8A78BAD35 /* Pods-TipCalculatorTests.release.xcconfig */,
+				7E24868B88E9A122D1290691 /* Pods-TipCalculatorUITests.debug.xcconfig */,
+				2DE22DB18DB9BDA241881840 /* Pods-TipCalculatorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E3A7A341DA807530093C3A1 /* Build configuration list for PBXNativeTarget "TipCalculator" */;
 			buildPhases = (
+				EC109B0636A746BB501E2041 /* [CP] Check Pods Manifest.lock */,
 				1E3A7A081DA807530093C3A1 /* Sources */,
 				1E3A7A091DA807530093C3A1 /* Frameworks */,
 				1E3A7A0A1DA807530093C3A1 /* Resources */,
+				2B79E05FE77E410F945F764C /* [CP] Embed Pods Frameworks */,
+				8AAF49387FC06C88AA8DCC68 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E3A7A371DA807530093C3A1 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */;
 			buildPhases = (
+				83D05E8A7EDF96AD2F3D5612 /* [CP] Check Pods Manifest.lock */,
 				1E3A7A1C1DA807530093C3A1 /* Sources */,
 				1E3A7A1D1DA807530093C3A1 /* Frameworks */,
 				1E3A7A1E1DA807530093C3A1 /* Resources */,
+				55858ADA4FF17493B524497F /* [CP] Embed Pods Frameworks */,
+				7E945C82812813D576F88240 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E3A7A3A1DA807530093C3A1 /* Build configuration list for PBXNativeTarget "TipCalculatorUITests" */;
 			buildPhases = (
+				19D4E74A0BF6137FB5CA6658 /* [CP] Check Pods Manifest.lock */,
 				1E3A7A271DA807530093C3A1 /* Sources */,
 				1E3A7A281DA807530093C3A1 /* Frameworks */,
 				1E3A7A291DA807530093C3A1 /* Resources */,
+				9580DA2E3D2D0AB5879DD0CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,15 +247,19 @@
 				TargetAttributes = {
 					1E3A7A0B1DA807530093C3A1 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HMNNUPRL3N;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					1E3A7A1F1DA807530093C3A1 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1E3A7A0B1DA807530093C3A1;
 					};
 					1E3A7A2A1DA807530093C3A1 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1E3A7A0B1DA807530093C3A1;
 					};
@@ -259,6 +311,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19D4E74A0BF6137FB5CA6658 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B79E05FE77E410F945F764C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TipCalculator/Pods-TipCalculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55858ADA4FF17493B524497F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TipCalculatorTests/Pods-TipCalculatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E945C82812813D576F88240 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TipCalculatorTests/Pods-TipCalculatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83D05E8A7EDF96AD2F3D5612 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8AAF49387FC06C88AA8DCC68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TipCalculator/Pods-TipCalculator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9580DA2E3D2D0AB5879DD0CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TipCalculatorUITests/Pods-TipCalculatorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC109B0636A746BB501E2041 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E3A7A081DA807530093C3A1 /* Sources */ = {
@@ -416,8 +591,10 @@
 		};
 		1E3A7A351DA807530093C3A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F3CF4CC9C1D72CD007A395 /* Pods-TipCalculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HMNNUPRL3N;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.sharecar.TipCalculator;
@@ -428,8 +605,10 @@
 		};
 		1E3A7A361DA807530093C3A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 649B3FC903C61FDB984E749E /* Pods-TipCalculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HMNNUPRL3N;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.sharecar.TipCalculator;
@@ -440,6 +619,7 @@
 		};
 		1E3A7A381DA807530093C3A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57FDED9C8D5CC7A31F8774C5 /* Pods-TipCalculatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +634,7 @@
 		};
 		1E3A7A391DA807530093C3A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCAF9BD719555EF8A78BAD35 /* Pods-TipCalculatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +649,7 @@
 		};
 		1E3A7A3B1DA807530093C3A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E24868B88E9A122D1290691 /* Pods-TipCalculatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TipCalculatorUITests/Info.plist;
@@ -481,6 +663,7 @@
 		};
 		1E3A7A3C1DA807530093C3A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE22DB18DB9BDA241881840 /* Pods-TipCalculatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TipCalculatorUITests/Info.plist;
@@ -511,6 +694,7 @@
 				1E3A7A361DA807530093C3A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E3A7A371DA807530093C3A1 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +703,7 @@
 				1E3A7A391DA807530093C3A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E3A7A3A1DA807530093C3A1 /* Build configuration list for PBXNativeTarget "TipCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +712,7 @@
 				1E3A7A3C1DA807530093C3A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
