@@ -106,12 +106,16 @@ class ViewController: UIViewController {
     }
     
     func updateBillValue(){
+        let locale = Locale.current
+        let currencySymbol = locale.currencySymbol
+        let currencyCode = locale.currencyCode
+        
         let bill = Double(billField.text!) ?? 0
         let tip = bill * Double(tipPercentages[tipControl.selectedSegmentIndex])/100
         
         let total = bill + tip
-        tipLabel.text = String (format: "$%.2f", tip)
-        totalLabel.text = String (format: "$%.2f", total)
+        tipLabel.text = String (format: "%@%.2f", currencySymbol!, tip)
+        totalLabel.text = String (format: "%@%.2f", currencySymbol!, total)
     }
 
     @IBAction func onTap(_ sender: AnyObject) {
