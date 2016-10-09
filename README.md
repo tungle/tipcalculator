@@ -20,6 +20,7 @@ The following **optional** features are implemented:
 * [x] Using locale-specific currency and currency thousands separators.
 * [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 * [x] Show the 'Next' button and tapping it will shift focus to the next text field
+* [x] Adding a pod library
 
 The following **additional** features are implemented:
 
